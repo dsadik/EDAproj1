@@ -1,4 +1,4 @@
-source('~/EDAproj1/ReadSubsetData.R')
+source('ReadSubsetData.R')
 subsetdata$Global_active_power <- as.numeric(as.character(subsetdata$Global_active_power))
 subsetdata$Global_reactive_power <- as.numeric(as.character(subsetdata$Global_reactive_power))
 subsetdata$Voltage <- as.numeric(as.character(subsetdata$Voltage))
